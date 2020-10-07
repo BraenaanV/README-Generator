@@ -1,14 +1,23 @@
 {
-  "name": "static-site",
+  "name": "read-me-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A command line application using the inquirer NPM to generate professional READ ME's.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "BraenaanV",
+  "license": "MIT",
   "dependencies": {
+    "axios": "^0.20.0",
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraenaanV/README-Generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BraenaanV/README-Generator/issues"
+  },
+  "homepage": "https://github.com/BraenaanV/README-Generator#readme"
 }
