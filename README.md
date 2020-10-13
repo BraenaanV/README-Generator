@@ -19,7 +19,7 @@
   
   ## Video Example
   
-  <iframe src="https://drive.google.com/file/d/1mcLYAAVH8ZIdHVTQM-Z8KtAS0Xh6bHUh/preview" width="640" height="480"></iframe>
+  [![CLI demo](http://img.youtube.com/vi/zYmcyAsr5T4/0.jpg)](http://www.youtube.com/watch?v=zYmcyAsr5T4 "Video Example")
   
   ## Tests
   
