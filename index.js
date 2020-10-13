@@ -29,7 +29,7 @@ const questions = [
     {
         type: "input",
         message: "What is your GitHub username (exclude the @)",
-        name: "GitHub-Username",
+        name: "username",
         default: "My Username",
     },
 

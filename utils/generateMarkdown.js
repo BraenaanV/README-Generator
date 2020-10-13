@@ -2,14 +2,14 @@
 function generateMarkdown(userResponses, userInfo) {
   let draftToC = `## Table of Contents`;
   
-  if (userResponses.installation !== '') { draftToC += `
+  if (userResponses.install !== '') { draftToC += `
   * [Installation](#installation)` };
 
   if (userResponses.usage !== '') { draftToC += `
   * [Usage](#usage)` };
 
-  if (userResponses.contributing !== '') { draftToC += `
-  * [Contributing](#contributing)` };
+  if (userResponses.contributors !== '') { draftToC += `
+  * [contributors](#contributors)` };
 
   if (userResponses.tests !== '') { draftToC += `
   * [Tests](#tests)` };
@@ -18,8 +18,7 @@ function generateMarkdown(userResponses, userInfo) {
   let draftMarkdown = 
   `# ${userResponses.title}
   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${userResponses.username}/${userResponses.repo}?style=flat&logo=appveyor)
-  
-  Check out the badges hosted by [shields.io](https://shields.io/).
+
   
   
   ## Description 
@@ -34,7 +33,7 @@ function generateMarkdown(userResponses, userInfo) {
   * [License](#license)`;
   
 
-  if (userResponses.installation !== '') {
+  if (userResponses.install !== '') {
   
   draftMarkdown +=
   `
@@ -43,7 +42,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   *Steps required to install project:*
   
-  ${userResponses.installation}`
+  ${userResponses.install}`
   };
   
 
@@ -62,14 +61,14 @@ function generateMarkdown(userResponses, userInfo) {
   };
   
   
-  if (userResponses.contributing !== '') {
+  if (userResponses.contributors !== '') {
   `
   
   ## Contributing
   
   *If you would like to contribute to this project, you can follow these guidelines for how to do so.*
   
-  ${userResponses.contributing}`
+  ${userResponses.contributors}`
   };
   
 
@@ -99,7 +98,7 @@ function generateMarkdown(userResponses, userInfo) {
   
   ![Developer Profile Picture](${userInfo.avatar_url}) 
   
-  For any questions, please contact me with the information below:
+  For any questions, please contact me:
  
   GitHub: [@${userInfo.login}](${userInfo.url})
   `;

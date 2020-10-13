@@ -1,22 +1,27 @@
 # README Generator
-  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/undefined/undefined?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/undefined/undefined?style=flat&logo=appveyor)
-  
-  Check out the badges hosted by [shields.io](https://shields.io/).
+  ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/BraenaanV/undefined?style=flat&logo=appveyor) ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/BraenaanV/undefined?style=flat&logo=appveyor)
+
   
   
   ## Description 
   
-  A command line interface that generates a README against a set of user inputs
+  A node command line interface that generates a ReadMe against user inputs. 
   ## Table of Contents
   * [Installation](#installation)
-  * [Contributing](#contributing)
+  * [Tests](#tests)
   * [License](#license)
   
   ## Installation
   
   *Steps required to install project:*
   
-  undefined
+  npm install, then npm install axios
+  
+  ## Tests
+  
+  *Tests for application and how to run them:*
+  
+  none
   
   ## License
   
